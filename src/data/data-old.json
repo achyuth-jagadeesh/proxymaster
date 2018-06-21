@@ -1,0 +1,251 @@
+{
+  "Jquery":[
+       {
+	     "keywords":"jQuery",
+		 "question":"What is jQuery?",
+		 "ans": "jQuery is a JavaScript Library aiming at Write less and  do more. \njQuery simplifies HTML document traversing, event handling, animating, \nand Ajax interactions for rapid web development."
+	   },
+	   {
+	     "keywords":"jQuery",
+		 "question":"What are the core features of jQuery?",
+		 "ans": "Key features of Jquery are \nDOM manipulation, Event handling, AJAX Support,Animations,Lightweight,Selectors"
+	   },
+	   {
+	     "keywords":"document ready onload",
+		 "question":"What is the diffrence between document ready and onload ?",
+		 "ans": "Document ready is triggered the moment the DOM is loaded, While window onload is \n triggered only after all the resources like images are loaded."
+	   },
+	   {
+	     "keywords":"selectors",
+		 "question":"What are the diffrent selectors available ?",
+		 "ans": "Diffrent types of selectors are \n1)Element Selector \n2)ID Selector \n3)class selector \n parent and child selector , odd and even selector "
+	   },
+	   {
+	     "keywords":"proxy",
+		 "question":"what is $proxy",
+		 "ans": "$Proxy is used to bind a scope to the callback function in jquery"
+	   },
+	   {
+	     "keywords":"commom functions",
+		 "question":"what are the common functions in jquery ?",
+		 "ans": "trim,Add class,remove class, toggle,css"
+	   },
+	   {
+	     "keywords":"odd and even",
+		 "question":"We can use even or odd selectors",
+		 "ans": "trim,Add class,remove class, toggle,css,attr,props etc."
+	   },
+	   {
+	     "keywords":"props attr",
+		 "question":"What is the diffrence between props and attr ?",
+		 "ans": "ATTR  gets the value of an attribute for the first element in the set of matched element. \n PROPS gets the value of a property for the first element in the set of matched elements. It is introduced in jQuery 1.6."
+	   },
+	   {
+	     "keywords":"Add event",
+		 "question":"How do you handle events in Jquery ?",
+		 "ans": "We can add events using $on followed by event name selector and a call back function. \nWe can remove the event by using the jquery method off."
+	   },
+	   {
+	     "keywords":"$",
+		 "question":"What is $() in jQuery library?",
+		 "ans": "$ represents Jquery. "
+	   },
+	   {
+	     "keywords":"no conflict",
+		 "question":"Can we change $ to in Jquery ?",
+		 "ans": "Yes"
+	   },
+	   {
+	     "keywords":"no conflict ",
+		 "question":"How can you use multiple versions of Jquery ?",
+		 "ans": "With the help of jquery.noCOnflict we can use multiple versions of Jquery."
+	   },
+	   {
+	     "keywords":"Find childred",
+		 "question":"What is the difference between find and children methods?",
+		 "ans": "Find method is used to find all levels down the DOM tree while children method is used \nto find single level down the DOM tree."
+	   },
+	   {
+	     "keywords":"class selector id selector",
+		 "question":"What is the difference between ID selector and class selector in jQuery?",
+		 "ans": "ID selector uses # has the prefix and returns a single element. It is always unique. \n Where as Class selector use dot and returns a list of element having  the class name."
+	   },
+	   {
+	     "keywords":"Add Class Remove Class",
+		 "question":"How to add and remove CSS classes to an element using jQuery?",
+		 "ans": "We can use add class to add a css class to element \n We can use  remove class to remove a css class from a element."
+	   }
+	   
+  ],
+  "HTML":[
+	   {
+	     "keywords":"html5 features",
+		 "question":"What are the features in HTML5 ?",
+		 "ans": "Some of the key features of html5 is semantic tags like \n HEADER , \nFOOTER , \n SECTION,\n  New input elements like EMAIL , DATE , RANGE etc. \n New apis are introduced like  local storage, web db . To implement animations html 5 supports canvas tag. We can use Audio and vidio tags to play the vidio and ausio."
+	   },
+	   {
+	     "keywords":"local storage",
+		 "question":"What is local storage ?",
+		 "ans": "Local storage allows us to store data in the form of kwy value pair. Value should be always a string."
+	   },
+	   {
+	     "keywords":"local storage",
+		 "question":"How do you store object inside a local storage ?",
+		 "ans": "We can store object by Stringifying it by using the JSON.stringify method.  While we retrive it we need to use the JSON.parse method to convert the string to JSON object."
+	   },
+	   {
+	     "keywords":"local storage session storage",
+		 "question":"What is the diffrence between local storage and session storage ?",
+		 "ans": "localStorage: stores data with no expiration date, and gets cleared only through JavaScript, or clearing the Browser Cache.  sessionStorage is similar to localStorage but expires when the browser is closed."
+	   },
+	   {
+	     "keywords":"inline block",
+		 "question":"What is the diffrence between inline and block element ?",
+		 "ans": "block elements take the entire row and appears one above other, where as inline elements will occupy only the required width and appear next to each other  "
+	   },
+	   {
+	     "keywords":"inline block",
+		 "question":"How can you convert inline element to a block element ?",
+		 "ans": "By changing the css display property to block we can chang the inline element to block element"
+	   },
+	   {
+	     "keywords":"inline block",
+		 "question":"What is the diffrence between inline block and inline ?",
+		 "ans": "inline elements will not have css width property , where as inline-bloc can have a css width property."
+	   },
+	   {
+	     "keywords":"Canvas",
+		 "question":"What is Canvas tag ?",
+		 "ans": "With canvas tag we can create animations and effects. With this tag we can avoid use of external plugins like adobe flash. "
+	   },
+	   {
+	     "keywords":"SVG",
+		 "question":"What is SVG tag ?",
+		 "ans": "SVG stands for Scalable Vector Graphics. It is basically used to define graphics. \n SVG is vector graphic base, it can scale any size to fit web pages. unlike the image format it does not consist of a fixed set of dots, but of shapes and their attributes, so it can be saved as the smallest size possible. No matter how large the graphic gets, the XML that describes the graphic is the only thing transmitted to the client.\n It can be bandwidth friendly "
+	   },
+	   {
+	     "keywords":"html5 doctype",
+		 "question":"What is doctype in html ?",
+		 "ans": "doctype is an instruction to the web browser about what version of HTML the page is written in. some of the doctypes are \n STRICT, LOOSE, FRAMESET, TRANSITIONAL "
+	   },
+	   {
+	     "keywords":"semantic tag",
+		 "question":"What is semantic tags in html 5",
+		 "ans": "Some of the semantic tags in html 5 are HEADER,FOOTER,SECTION and ASIDE. \n These tags   helps in SEO optimization and improving accessability"
+	   }
+  ],
+  "CSS":[
+      {
+	     "keywords":"none visibility",
+		 "question":"What diffrence between display none and visibility ?",
+		 "ans": "display-none hides the element and will not occupy any space , where-as visibility-hidden will hide the element, but it will take its space."
+	   },
+	   {
+	     "keywords":"inline block",
+		 "question":"What is the diffrence between inline and block element ?",
+		 "ans": "block elements take the entire row and appears one above other, where as inline elements will occupy only the required width and appear next to each other  "
+	   },
+	   {
+	     "keywords":"inline block",
+		 "question":"How can you convert inline element to a block element ?",
+		 "ans": "By changing the css display property to block we can chang the inline element to block element"
+	   },
+	   {
+	     "keywords":"inline block",
+		 "question":"What is the diffrence between inline block and inline ?",
+		 "ans": "inline elements will not have css width property , where as inline-bloc can have a css width property."
+	   },
+	   {
+	     "keywords":"specificity",
+		 "question":"What is Specificity ?",
+		 "ans": "Specificity defines the css-rules. It explains about the order in which the css style would override the other rule.\nExample ID selector would take the highest presedence over element tag."
+	   },
+	   {
+	     "keywords":"CSS3",
+		 "question":"What is CSS3",
+		 "ans": "CSS3 comes with lot of new features such as 2d and 3d animation \n. new features like border-radius , opacity etc."
+	   },
+	   {
+	     "keywords":"CSS3",
+		 "question":"What is CSS3",
+		 "ans": "CSS3 comes with lot of new features such as 2d and 3d animation \n. new features like border-radius,Multiple Column Layout , opacity etc."
+	   },
+	   {
+	     "keywords":"boxmodel",
+		 "question":"What is box model ?",
+		 "ans": "Box model basically starts with content , padding , border and margin "
+	   },
+	   {
+	     "keywords":"pseudo",
+		 "question":"What is pseudo selectors ?",
+		 "ans": "pseudo selectos helpes us to apply css to elements based on pseudo attributes like hover, before , after"
+	   },
+	   {
+	     "keywords":"absolute relative position fixed",
+		 "question":"What are diffrent positions in css",
+		 "ans": "Diffrent positions in css are Absolute , Relative , Fixed and Static. By default it takes static position. "
+	   },
+	   {
+	     "keywords":"absolute and relative`",
+		 "question":"What are diffrence between absolute and relative ?",
+		 "ans": "Absolute position takes it position from the top of the body irrespective of its current position. Where-as relative takes the position from its current position."
+	   }
+  ],
+  "JAVASCRIPT":[
+	{
+		"keywords":"data types",
+		"question":"What are the data types in javascript?",
+		"ans": "Diffrent data  types in Javascript are number , String, Boolean.\nIn javascript we define a variable using the keyword var."
+	},
+	{
+		"keywords":"prototype",
+		"question":"What is prototype in javascript ?",
+		"ans": "prototype is a built-in  object of any function in javascript. While creating a class in javascript if we want to have member functions we should use prototype dot function name rahter than this dot function name. It helps in having single copy of menber function for each and every object. This saves memory. prototype is also useful while implementing the inheritance."
+	},
+	{
+		"keywords":"function types",
+		"question":"How many types of functions JavaScript supports?",
+		"ans": "A function in JavaScript can be either named or anonymous. \nWe can also create a variable and assign function to it."
+	},
+	{
+		"keywords":"===",
+		"question":"What is the diffrence between == and ===",
+		"ans": "double equals compares for value where as === compares for both value and data type. for Example if we compare true == 1 it will give true,  but if we compare true===1 it will return false since the data type dont match."
+	},
+	{
+		"keywords":"closures",
+		"question":"What is a closures ?",
+		"ans":"closures is an approach in javascript , where we retain the state of a function even after its execution, either by returning the anonymous function or a JSON object. "
+	},
+	{
+		"keywords":"inheritance",
+		"question":"How do you implement inheritance in javascript",
+		"ans":"We can implement inheritance by assigning the prototype of the parent function to child functions prototype.\n Then to initialize  the parents class properties we need to use use parent function dot call then pass the parameters "
+	},
+	{
+		"keywords":"hoisting",
+		"question":"What is hoisting ?",
+		"ans":"In javascript we assign a value to a variable and declare it later. This is know as hoisting.\n For example : i can have name ='xyz'  then followed by var name"
+	},
+	{
+		"keywords":"callback",
+		"question":"What is callback ?",
+		"ans":"A callback is a plain JavaScript function passed to some method as an argument or option. \n."
+	},
+	{
+		"keywords":"call",
+		"question":"What is call",
+		"ans":"Every function in javascript will have a method called call. We can use this method to call the function. It takes the paramenters in comma separated"
+	},
+	{
+		"keywords":"apply",
+		"question":"What is Apply",
+		"ans":"Every function in javascript will have a method called Apply. We can use this method to call the function. It takes the paramenters in array ."
+	},
+	{
+		"keywords":"diffrence between call and apply",
+		"question":"What is Apply",
+		"ans":"Every function in javascript will have a method called Apply. We can use this method to call the function. It takes the paramenters in array ."
+	}
+  ]
+}
